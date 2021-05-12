@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A72B192264A7D0F00D4A656 /* NaikaiFont-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A72B191264A7D0F00D4A656 /* NaikaiFont-Regular.ttf */; };
 		9A82E8E2264907B400614B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A82E8E1264907B400614B11 /* AppDelegate.swift */; };
 		9A82E8E4264907B400614B11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A82E8E3264907B400614B11 /* SceneDelegate.swift */; };
 		9A82E8E6264907B400614B11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A82E8E5264907B400614B11 /* ViewController.swift */; };
 		9A82E8E9264907B400614B11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A82E8E7264907B400614B11 /* Main.storyboard */; };
 		9A82E8EB264907B400614B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A82E8EA264907B400614B11 /* Assets.xcassets */; };
 		9A82E8EE264907B400614B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A82E8EC264907B400614B11 /* LaunchScreen.storyboard */; };
+		9A82E8FC26490E2400614B11 /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 9A82E8FB26490E2400614B11 /* CodableCSV */; };
+		9A82E9042649131F00614B11 /* Bunny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A82E9032649131F00614B11 /* Bunny.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A72B191264A7D0F00D4A656 /* NaikaiFont-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NaikaiFont-Regular.ttf"; sourceTree = "<group>"; };
 		9A82E8DE264907B300614B11 /* QnA兔子知識問答APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QnA兔子知識問答APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A82E8E1264907B400614B11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A82E8E3264907B400614B11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,7 @@
 		9A82E8EA264907B400614B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A82E8ED264907B400614B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A82E8EF264907B400614B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A82E9032649131F00614B11 /* Bunny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bunny.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A82E8FC26490E2400614B11 /* CodableCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +65,12 @@
 				9A82E8E1264907B400614B11 /* AppDelegate.swift */,
 				9A82E8E3264907B400614B11 /* SceneDelegate.swift */,
 				9A82E8E5264907B400614B11 /* ViewController.swift */,
+				9A82E9032649131F00614B11 /* Bunny.swift */,
 				9A82E8E7264907B400614B11 /* Main.storyboard */,
 				9A82E8EA264907B400614B11 /* Assets.xcassets */,
 				9A82E8EC264907B400614B11 /* LaunchScreen.storyboard */,
 				9A82E8EF264907B400614B11 /* Info.plist */,
+				9A72B191264A7D0F00D4A656 /* NaikaiFont-Regular.ttf */,
 			);
 			path = "QnA兔子知識問答APP";
 			sourceTree = "<group>";
@@ -83,6 +91,9 @@
 			dependencies = (
 			);
 			name = "QnA兔子知識問答APP";
+			packageProductDependencies = (
+				9A82E8FB26490E2400614B11 /* CodableCSV */,
+			);
 			productName = "QnA兔子知識問答APP";
 			productReference = 9A82E8DE264907B300614B11 /* QnA兔子知識問答APP.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +121,9 @@
 				Base,
 			);
 			mainGroup = 9A82E8D5264907B300614B11;
+			packageReferences = (
+				9A82E8FA26490E2400614B11 /* XCRemoteSwiftPackageReference "CodableCSV" */,
+			);
 			productRefGroup = 9A82E8DF264907B300614B11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A82E8EE264907B400614B11 /* LaunchScreen.storyboard in Resources */,
+				9A72B192264A7D0F00D4A656 /* NaikaiFont-Regular.ttf in Resources */,
 				9A82E8EB264907B400614B11 /* Assets.xcassets in Resources */,
 				9A82E8E9264907B400614B11 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +154,7 @@
 			files = (
 				9A82E8E6264907B400614B11 /* ViewController.swift in Sources */,
 				9A82E8E2264907B400614B11 /* AppDelegate.swift in Sources */,
+				9A82E9042649131F00614B11 /* Bunny.swift in Sources */,
 				9A82E8E4264907B400614B11 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +357,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A82E8FA26490E2400614B11 /* XCRemoteSwiftPackageReference "CodableCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dehesa/CodableCSV.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.6.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A82E8FB26490E2400614B11 /* CodableCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A82E8FA26490E2400614B11 /* XCRemoteSwiftPackageReference "CodableCSV" */;
+			productName = CodableCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9A82E8D6264907B300614B11 /* Project object */;
 }

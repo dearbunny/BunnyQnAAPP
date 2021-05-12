@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "bunny.csv",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
